@@ -1,0 +1,156 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="WebPage.master.cs" Inherits="Nisacreation.WebPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            height: 100%;
+            background-color: black;
+            margin-bottom: 79px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 0px;
+            width: 100%;
+         
+         
+         
+         
+         
+         
+         min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+   top: 0;
+  left: 0;   
+        }
+        .style4
+        {
+            color: white;
+            font-family: Papyrus;
+            font-size: x-large;
+        }
+        .style3
+        {
+            background-color: black;
+            height: 79px;
+            width: 100%
+        }
+        .style5
+        {
+            height: 686px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+            
+        
+            <table id="Table1" class="style1" border="0" cellpadding="0" 
+                cellspacing="0" frame="void" runat="server">
+                <tr>
+                    <td class="style4" colspan="2" >
+                       <p >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Welcome&nbsp;&nbsp; To&nbsp;&nbsp;   The&nbsp;&nbsp;   World&nbsp;&nbsp; Of&nbsp;&nbsp; NISA&nbsp;&nbsp; CREATIONS</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="style3" colspan="2">
+                        <asp:Panel ID="Panel1" runat="server" Height="113px" Width="100%" right="0"
+                            style="margin-top: 0px; background-color: #333333;" >
+                            &nbsp;
+                            <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <asp:Image ID="Image1" runat="server" Height="67px" ImageUrl="images/jute1.jpg" 
+                                Width="149px" />
+                            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<asp:Image ID="Image2" runat="server" Height="70px" 
+                                ImageUrl="images/jute2.jpg" Width="137px" />
+                            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                            <asp:Image ID="Image7" runat="server" Height="70px" ImageUrl="images/jute3.jpg" 
+                                Width="137px" />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <asp:Image ID="Image8" runat="server" Height="70px" ImageUrl="images/jute4.jpg" 
+                                Width="137px" />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                            <asp:Image ID="Image3" runat="server" Height="70px" ImageUrl="images/jute5.jpg" 
+                Width="137px" />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<asp:Image ID="Image9" runat="server" Height="70px" 
+                                ImageUrl="images/jute6.jpg" Width="138px" />
+                            &nbsp; &nbsp;
+                            
+                          <asp:Panel ID="Panel6" runat="server" Height="19px" Width="100%"
+            style="margin-top: 0px; background-color: black; height: auto; color: #FFFFCC;" > 
+                                
+        
+            
+                                <asp:HyperLink ID="HyperLink1"  ForeColor="#FFFFCC" runat="server" 
+                                    NavigateUrl="~/home.aspx" Target="_self"
+                                   >home</asp:HyperLink>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:HyperLink ID="HyperLink2" ForeColor="#FFFFCC" runat="server" 
+                                    NavigateUrl="~/aboutUs.aspx" Target="_self">about us</asp:HyperLink>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:HyperLink ID="HyperLink3" ForeColor="#FFFFCC" runat="server" 
+                                    NavigateUrl="~/contactUs.aspx" Target="_self">contact us</asp:HyperLink>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink ID="HyperLink7" runat="server" right="0" ForeColor="#FFFFCC" NavigateUrl="~/SignIn.aspx">SignIn</asp:HyperLink>
+                                
+                                <br />
+                                <br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <br />
+                                <br />
+                                <br />
+                                
+                            </asp:Panel>  
+                        </asp:Panel>
+                       
+                    </td>
+                </tr>
+                <tr>
+                    
+                    <td bgcolor="Black" class="style5">
+                        <asp:Panel ID="Panel4" runat="server" Height="100%" Width="100%" 
+                            
+                            style="margin-top: 0px; background-image: url('/WebSite3/images/Fancy-Purple-Pattern-Tablet-Background.jpg');" 
+                            BackColor="#333333" >
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                            
+                                
+                            
+                            </asp:ContentPlaceHolder>
+                            
+                        </asp:Panel>
+                    </td>
+                </tr>
+                <tr class="style6">
+                    <td colspan="2" >
+                        <asp:Panel ID="Panel5" runat="server" Width="100%" style="margin-top: 0px; background-color: black;" 
+                            Height="20px">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#FFFFFF" face="Times New Roman" size="2"/>©&nbsp; Nisa Creations, 
+                            Bombay, India.  </asp:Panel>
+                      </td> </tr> </table>
+            
+        
+        
+    </div>
+    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+   
+    </form>
+</body>
+</html>
